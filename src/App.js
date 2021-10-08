@@ -20,7 +20,7 @@ function App() {
         });
     };
         const listCard = cards.slice(0,8).map((card, index) =>
-            <Col xs={3}>
+            <Col xs={12} lg={3}>
             <MediaCard 
             name={card.name}
             con={card.connections}
